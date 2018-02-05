@@ -1,0 +1,7 @@
+﻿  FileManager.cpp
+  EditableImage.cpp
+  main.cpp
+EditableImage.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Image::saveToFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (__imp_?saveToFile@Image@sf@@QBE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+EditableImage.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Image::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@Image@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+EditableImage.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Image::Image(void)" (__imp_??0Image@sf@@QAE@XZ)
+c:\users\robert\documents\visual studio 2017\Projects\ImageEditor\Release\ImageEditor.exe : fatal error LNK1120: 3 unresolved externals
